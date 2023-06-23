@@ -1,0 +1,133 @@
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.logoimg{ 
+  height: 60px;
+  /* width: 150px; */
+}
+.HomePgTitle{
+    font-family: 'Times New Roman', serif; 
+    font-weight: bolder;
+    font-size: 50px;
+    color: #020D2F; 
+}
+ 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+  
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white; 
+  }
+ 
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+    
+  .navCards{
+    /* background: linear-gradient(187.03deg, #020D2F -64.82%, rgba(202, 202, 206, 0) 89.45%);
+    border-bottom: 5px solid #020D2F; */
+    background: linear-gradient(187.03deg, #07278A -64.82%, rgba(202, 202, 206, 0) 89.45%);
+    border-bottom: 5px solid #020D2F;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.25);
+    
+  } 
+  .navCards:hover{
+    border: 2px solid #8390b7;
+    box-shadow: 1px 1px 15px 6px rgba(0, 0, 0, 0.25);
+  }
+  
+.navCardsImg{
+    height: 60px;
+    width: 60px;
+   
+}
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: 50%;  
+  align-self: stretch
+}
+.activeNavCard{
+  /* background: linear-gradient(186.47deg, rgba(202, 202, 206, 0) 5.09%, #07278A 612.61%); */
+  background: linear-gradient(186.47deg, #FFFFFF 5.09%, #07278A 612.61%);
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.infoCardLeft{
+    background: #FFFFFF;
+    border-left: 10px solid #000000;
+     
+    border-radius: 0px 20px 20px 0px;
+}
+.infoCardRight{
+    background: #FFFFFF;
+    border-right: 10px solid #000000;
+    
+    border-radius: 20px 0px 0px 20px;
+}
+
+ .form-check-input:checked {
+    background-color: #FFDC00;
+    border-color: #020D2F;
+}
+
+.cardImage{
+  height: 230px;
+  width: contain;
+}
+.card-img, .card-img-top, .card-img-bottom {
+  width: fit-content;
+}
+
+.loginbtn{
+  color:  #FFDC00;
+  background-color:#020D2F;
+}
+.loginbtn:hover{
+  color:  #FFDC00;
+  background-color:#03154d;
+}
+.editDeleteIcons{ 
+    align-items: end;
+    justify-content: end;
+    display: flex;
+  }
+  
+  .tick-list {
+    list-style-type: none;
+  }
+  
+  .tick-list li:before {
+    content: "\2713"; /* Unicode character for tick */
+    color: green; /* Optional color for the tick */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .langbtn{
+    color:  #FFDC00;
+    background-color:#020D2F;
+  }
+
+  .langbtn.active > input[type="radio"] + label {
+    color:  #FFDC00;
+    background-color:#020D2F;
+  }

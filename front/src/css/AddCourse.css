@@ -1,0 +1,17 @@
+.formcss{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+   margin: 20px;
+}

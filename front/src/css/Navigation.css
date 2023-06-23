@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .container-fluid {
+    padding: 0px 30px 0px 50px;
+  }
+  .navbar-brand {
+    color: white;
+  }
+  #navbarNav {
+    display: flex;
+    justify-content: end;
+  }
+  .navbar {
+    background-color:#020D2F;
+  }
+  .nav-link {
+    color: #f6f6f6;
+
+    font-weight: bold;
+    padding: 15px 35px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .nav-link:hover,
+  .nav-link:active .show>.nav-link{
+    color: #131311;
+    background-color: #ffffff; 
+    font-size: large;
+  }
+ .activeLink{
+  color: #131311;
+    background-color: #ffffff;
+ }
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: #131311;
+  background-color: #ffffff;
+} 
+  
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: center;
+    margin-right: 5%;
+}}
+.navbar-toggler-icon{
+    filter: invert();
+}
+
+.pgHeading{
+    font-family: 'Times New Roman', serif; 
+}
+.cardTabs,
+.nav-link:active .show>.nav-link{
+  color:  #020D2F;
+background-color:#e6e9ec;
+}
+.cardTabs:hover,
+ .nav-link:active .show>.nav-link{
+   color:  #020D2F;
+ background-color:#e6e9ec;
+ font-size: larger;
+ }
+.cardTabsActive{
+ color:  #020D2F;
+ background-color:#e6e9ec;
+}
+ .navtabsplaces{
+  color: #020D2F;
+ }
+ .mentalhealthbg{  
+    background-size: cover;
+    background-attachment: fixed;
+   
+ }
+
+ .navigationBar{position: fixed;
+  z-index: 9999;}
